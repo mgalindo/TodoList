@@ -12,7 +12,8 @@ angular.module('kadaTodoApp')
 
 
 function ListItemController($scope){
-    $scope.inputlistitem = 'Add item to your list';
+    $scope.inputlistitem;
+    $scope.listarray = [];
 //    var listarray = [
 //        {
 //        'name': 'listitem1'},
@@ -21,9 +22,12 @@ function ListItemController($scope){
 //    $scope.allitems = listarray;
 
     $scope.addListItem = function(){
-        $scope.listarray = [];
         $scope.listarray.push( $scope.inputlistitem );
     };
+
+    $scope.deleteItem = function () {
+      
+    }
 
 }
 angular.module('myApp.controllers', []).
