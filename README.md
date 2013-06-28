@@ -1,4 +1,4 @@
 TodoList
 ========
 
-CAI Todo List Code Kata 
+CAI Todo List Code Kata
