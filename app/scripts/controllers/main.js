@@ -21,8 +21,8 @@ function ListItemController($scope){
 //    $scope.allitems = listarray;
 
     $scope.addListItem = function(){
+        $scope.listarray = [];
         $scope.listarray.push( $scope.inputlistitem );
-
     };
 
 }
