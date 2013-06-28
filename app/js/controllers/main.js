@@ -1,14 +1,14 @@
 'use strict';
 /*
-angular.module('kadaTodoApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
-*/
+ angular.module('kadaTodoApp')
+ .controller('MainCtrl', function ($scope) {
+ $scope.awesomeThings = [
+ 'HTML5 Boilerplate',
+ 'AngularJS',
+ 'Karma'
+ ];
+ });
+ */
 
 
 //function ConfirmDeleteCtrl($scope, ConfirmService)
@@ -27,8 +27,8 @@ function ListItemController($scope){
 
     $scope.listarray = [];
     $scope.deleteListItem = function ( idx ) {
-            window.confirm('are you sure');
-            $scope.listarray.splice(idx, 1);
+        window.confirm('are you sure');
+        $scope.listarray.splice(idx, 1);
 
     };
     $scope.addListItem = function(){
